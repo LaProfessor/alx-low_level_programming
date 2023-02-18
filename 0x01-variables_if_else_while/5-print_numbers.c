@@ -4,16 +4,16 @@
  * main- Entry point
  * @void: Null value
  *
- * Description: Print alphabet lowercase
+ * Description: Print numbers from 0 to 9
  * Return: Zero value
  */
 
 int main(void)
 {
-	char c;
+	int n;
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-	putchar('\n');
+	for (n = 0; n <= 9; n++)
+		printf("%d", n);
+	printf("\n");
 	return (0);
 }
