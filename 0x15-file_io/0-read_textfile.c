@@ -3,9 +3,9 @@
 
 /**
  * read_textfile- Read text file print to STDOUT.
- * @filename: text file being read
- * @letters: number of letters to be read
- * Return: w- actual number of bytes read and printed
+ * @filename: text file being read as output
+ * @letters: number of letters to be read in as input
+ * Return: w- actual number of bytes read and printed as output 
  *        0 when function fails or filename is NULL.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
